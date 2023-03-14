@@ -1,0 +1,85 @@
+#wrapper {width: 80%;
+    margin-left: auto;
+        margin-right: auto;
+        background-color: #EAEAEA;}
+        
+header {background-color: #17072b;
+        text-align: center;}
+
+        h1 {color: white;
+    font-family: Tahoma;
+    font-style: bold;
+    font-size: 50px;
+    }
+
+    #nav a {color: white;
+     font-family: Arial;
+     padding: 0px 20px;
+     font-size:25px;
+    text-decoration: none;
+    text-align: center;}
+
+    h6 {color: #17072b}
+
+    article {
+        display: block;
+        width: 940.32px;
+        height: 573px;
+        margin-left: 30px;
+        float: left;
+        font-family:arial;
+        font-size:400;
+        font-weight: 500;
+    
+    }
+    
+    h4 {
+        font-family:Tahoma;
+        font-size:25px;
+        font-style:bold;
+    }
+
+    
+        
+
+    
+aside {
+    display: block;
+    width: 450px;
+    height: 573px;
+    background: #172d67;
+    float: right;
+    color:#EAEAEA;
+    
+}
+
+section {padding-left:25px;
+        padding-top:5px;
+        font-family: tahoma;
+        font-size: 25px;
+        font-style: bold;
+        
+        }
+
+main {font-family: Arial;
+      font-size:20px;}
+
+div {padding-left: 25px;}
+
+footer {
+    margin-top: 14px;
+    /*margin-bottom: 0 !important;*/
+    display: block; 
+    float:right;
+    width: 100%;
+    background: #8c15e9;
+    height: 20px;
+    text-align:center;
+    color: white;
+    font-family: arial;
+}
+
+footer > p {
+    font-size: 20px;
+    margin-top: 11px;
+}
