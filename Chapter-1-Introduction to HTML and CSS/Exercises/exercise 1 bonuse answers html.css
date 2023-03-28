@@ -1,0 +1,17 @@
+h1 {
+    font-family: tahoma;
+    background-color: darkslateblue;
+    color: white;
+}
+
+ol {
+    font-family: tahoma;
+    font-weight: 400;
+    background-color:blanchedalmond;
+}
+
+h3 {
+    font-family: tahoma;
+    background-color:indianred;
+    color: white;
+}
