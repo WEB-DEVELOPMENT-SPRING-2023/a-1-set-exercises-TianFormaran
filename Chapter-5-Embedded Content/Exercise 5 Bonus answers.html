@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Exercise 5 Bonus answers css.css">
+</head>
+<body>
+    <script type="text/javascript">
+        function play_sound(clicked_id) {
+            var audio = new Audio(clicked_id + ".mp3");
+            audio.play();
+        }
+    </script>
+    <h2>AUDIO SAMPLER SOUND BOARD</h2>
+    <div class="soundboard">
+        <button id="ah-ha" onClick="play_sound(this.id)">1<br />Ah-ha<br />1.4</button>
+        <button id="dan" onClick="play_sound(this.id)">2<br />Dan<br />0.5</button>
+        <button id="back-of-the-net" onClick="play_sound(this.id)">3<br />Back of the net<br />1.02</button>
+        <button id="Bangoutoforder" onClick="play_sound(this.id)">4<br />Bang out of order<br />1.38</button>
+        <button id="emailoftheevening" onClick="play_sound(this.id)">5<br />Email of the evening<br />1.40</button>
+        <button id="hellopartridge" onClick="play_sound(this.id)">6<br />Hello partridge<br />1.91</button>
+        <button id="iatescotchegg" onClick="play_sound(this.id)">7<br />I ate scotch egg<br />1.49</button>
+        <button id="imconfused" onClick="play_sound(this.id)">8<br />I'm confused<br />1.07</button>
+        
+
+    </div>
+</body>
+</html>
