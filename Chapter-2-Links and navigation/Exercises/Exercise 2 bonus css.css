@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.menu {
+    background: #2c3e50;
+    padding: 20px 0;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menu ul li {
+    list-style: none;
+    margin: 0 20px;
+    display: inline;
+}
+.menu ul li a {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.menu ul li a.active {
+    background: #E91E63;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
